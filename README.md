@@ -16,3 +16,7 @@ The project is a collaborative text editor which has been developed as a part of
 * Text does not get lost on reopening the document.
 * Distinct documents are independet of the changes made in either of them.
 * Provides features for text formatting such as bold, italics, underline, fonts as well as highlighting.
+
+
+https://user-images.githubusercontent.com/78033927/235985799-18e847f1-61ac-41b1-a5d6-059fd3162bca.mp4
+
