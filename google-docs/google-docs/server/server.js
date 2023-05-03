@@ -2,16 +2,16 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
 
-mongoose.connect(MONGODB_URL, {
+mongoose.connect(process.env.MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
   useCreateIndex: true,
 })
 
-const io = require("socket.io")(3001, {
+const io = require("socket.io")(process.env.PORT, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: process.env.ALLOWED_ORIGIN || "http://localhost:3000",
     methods: ["GET", "POST"]
   }
 });
