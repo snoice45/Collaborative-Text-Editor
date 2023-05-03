@@ -1,3 +1,4 @@
+require("dotenv").config();
 const mongoose = require("mongoose")
 const Document = require("./Document")
 
@@ -8,12 +9,12 @@ mongoose.connect("mongodb+srv://khushi1magic:Khushi@cluster0.s9ftr14.mongodb.net
   useCreateIndex: true,
 })
 
-const io = require("socket.io")(3001, {
+const io = require("socket.io")(process.env.PORT || 3001, {
   cors: {
     origin: "http://localhost:3000",
-    methods: ["GET", "POST"],
-  },
-})
+    methods: ["GET", "POST"]
+  }
+});
 
 const defaultValue = ""
 
