@@ -2,7 +2,7 @@
 const mongoose = require("mongoose")
 const Document = require("./Document")
 
-mongoose.connect("mongodb+srv://khushi1magic:Khushi@cluster0.s9ftr14.mongodb.net/test", {
+mongoose.connect(MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
