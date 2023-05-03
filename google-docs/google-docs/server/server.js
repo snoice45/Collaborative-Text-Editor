@@ -1,4 +1,4 @@
-require(".env").config();
+
 const mongoose = require("mongoose")
 const Document = require("./Document")
 
