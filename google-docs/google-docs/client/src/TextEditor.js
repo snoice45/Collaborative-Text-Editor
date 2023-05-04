@@ -23,7 +23,7 @@ export default function TextEditor() {
   const [quill, setQuill] = useState()
 
   useEffect(() => {
-    const s = io("https://collaborative-text-editor-snoice45.vercel.app/")
+    const s = io("https://collaborative-text-editor-jihs-snoice45.vercel.app/")
     setSocket(s)
 
     return () => {
