@@ -9,7 +9,7 @@ mongoose.connect("mongodb+srv://khushi1magic:Khushi@cluster0.s9ftr14.mongodb.net
   useCreateIndex: true,
 })
 
-const io = require("socket.io")(process.env.PORT, {
+const io = require("socket.io")(80, {
   cors: {
     origin: "https://collaborative-text-editor-snoice45.vercel.app/",
     methods: ["GET", "POST"]
