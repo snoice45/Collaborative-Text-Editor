@@ -9,9 +9,9 @@ mongoose.connect("mongodb+srv://<username>:<password>@cluster0.s9ftr14.mongodb.n
   useCreateIndex: true,
 })
 
-const io = require("socket.io")(3001, {
+const io = require("socket.io")("https://collaborative-text-editor-snoice45.vercel.app/", {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://collaborative-text-editor-snoice45.vercel.app/",
     methods: ["GET", "POST"]
   }
 });
