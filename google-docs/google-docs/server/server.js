@@ -19,6 +19,7 @@ const io = require("socket.io")(80, {
 const defaultValue = ""
 
 io.on("connection", socket => {
+  console.log("connected")
   socket.on("get-document", async documentId => {
     const document = await findOrCreateDocument(documentId)
     socket.join(documentId)
