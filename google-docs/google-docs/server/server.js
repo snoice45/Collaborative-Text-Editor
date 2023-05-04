@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://khushi1magic:Khushi@cluster0.s9ftr14.mongodb.net
 
 const io = require("socket.io")(2000, {
   cors: {
-    origin: "https://collaborative-text-editor-snoice45.vercel.app/",
+    origin: "http://10.20.39.28:3000",
     methods: ["GET", "POST"]
   }
 });
