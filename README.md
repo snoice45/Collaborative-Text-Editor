@@ -8,6 +8,7 @@ The project is a collaborative text editor which has been developed as a part of
 * Quill text editor has been used because of its intensive features list as the template.
 * MongoDb integration has been perfromed to store text entered into the document.
 * Client-Server Communication using Socket.io.
+* Added Google-Authentication for Sign-In
 
 ## Highlights :
 
