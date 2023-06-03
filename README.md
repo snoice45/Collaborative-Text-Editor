@@ -19,5 +19,9 @@ The project is a collaborative text editor which has been developed as a part of
 
 <br><br>
 
-https://user-images.githubusercontent.com/78033927/235985799-18e847f1-61ac-41b1-a5d6-059fd3162bca.mp4
+
+
+
+
+https://github.com/snoice45/Collaborative-Text-Editor/assets/78033927/cac62325-7bd6-4656-b61c-3536adc516be
 
