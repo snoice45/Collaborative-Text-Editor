@@ -15,7 +15,7 @@ The project is a collaborative text editor which has been developed as a part of
 * Changes made by one user to the document would be reflected for another user using the same document.
 * Any changes, additions or deletions made to the document will be reflected in real time.
 * Text does not get lost on reopening the document.
-* Distinct documents are independet of the changes made in either of them.
+* Distinct documents are independent of the changes made in either of them.
 * Provides features for text formatting such as bold, italics, underline, fonts as well as highlighting.
 
 <br><br>
